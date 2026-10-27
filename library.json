@@ -1,0 +1,16 @@
+{
+  "name": "nmea2k-ble-libraries",
+  "version": "0.1.0",
+  "description": "NMEA 2000 over Bluetooth Low Energy: an ESP32 CAN-bus bridge and a client that maps any PGN to your functions.",
+  "keywords": ["nmea2000", "n2k", "can", "ble", "bluetooth", "marine", "esp32"],
+  "repository": { "type": "git", "url": "https://github.com/fredrikrudin/nmea2k-ble-libraries" },
+  "authors": [{ "name": "Fredrik Rudin", "maintainer": true }],
+  "license": "CC-BY-NC-4.0",
+  "frameworks": "arduino",
+  "platforms": "espressif32",
+  "dependencies": {
+    "h2zero/NimBLE-Arduino": "^2.3.0",
+    "ttlappalainen/NMEA2000-library": "*"
+  },
+  "build": { "srcFilter": ["+<*>"] }
+}
